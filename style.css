@@ -162,19 +162,16 @@ figcaption{
     margin-left: auto;
 }
 
-.sectionfour{
-    display:flex;
+.cta{
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 80px;
     height: 200px;
     background-color: rgb(251, 167, 0);
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top:40px;
-    margin-bottom:40px;
-    min-width: 479px
-
+    margin: 40px 80px;
+    min-width: 479px;
+    border-radius: 15px;
 }
 
 .callhead{
@@ -232,4 +229,8 @@ a:hover{
 #secondbutton:hover{
     text-decoration: underline;
     background-color: brown;
+}
+
+button{
+    cursor: pointer
 }
