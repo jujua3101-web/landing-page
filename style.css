@@ -34,12 +34,9 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 80px;
     gap:32px;
-    height: 225px;
+    min-height: 225px;
     flex-shrink:0
 }
 
@@ -92,43 +89,20 @@ p{
 
 .category{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px
 }
 
-.savory{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sweets{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.snacks{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
+.savory, 
+.sweets,
+.snacks,
 .drinks{
     width: 200px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    min-height: 242.5px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cattext{
@@ -149,7 +123,7 @@ figcaption{
 }
 
 .zoom{
-   transition: transform.2s; 
+   transition: transform .2s; 
 }
 
 .zoom:hover{
@@ -159,12 +133,12 @@ figcaption{
 .sectionthree{
     background-color:#fff4f2;
     display: flex;
-    align-items: flex-end;
+    align-items: stretch;
     flex-direction: column;
     justify-content: center;
     height: 200px;
-    padding-left: 40px;
-    padding-right: 40px
+    padding: 0 40px;
+    gap: 20px
 }
 
 .testimony{
@@ -172,9 +146,7 @@ figcaption{
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 25px;
+    padding: 0 80px;
     font-style: italic;
     color:#414141;
     line-height: 2;
@@ -186,18 +158,15 @@ figcaption{
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color:#252525;
     font-weight:bolder;
-    padding-left: 80px;
-    padding-right: 80px;
-    display: flex;
-    flex-shrink: 0
+    padding: 0 80px;
+    margin-left: auto;
 }
 
 .sectionfour{
     display:flex;
-    justify-tracks: flex-start;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    justify-content: center;
+    padding: 0 80px;
     height: 200px;
     background-color: rgb(251, 167, 0);
     margin-left: 80px;
@@ -224,12 +193,12 @@ figcaption{
 
 #email{
     width: 350px;
-    height: 25px
+    height: 40.5px
 }
 
 .form{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 30px;
 }
 
@@ -248,4 +217,19 @@ a{
 
 a:hover{
     text-decoration: underline
+}
+
+#secondbutton{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    width: 140px;
+    background-color: #832513;
+    color: #e6e6e6;
+    font-size: 16px;
+    border: none;
+}
+
+#secondbutton:hover{
+    text-decoration: underline;
+    background-color: brown;
 }
