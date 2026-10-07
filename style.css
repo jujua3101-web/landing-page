@@ -39,7 +39,7 @@ ul{
 }
 
 #mainimg{
-    border-width: 10px solid white;
+    border: 10px solid white;
     min-width: 350px
 }
 
